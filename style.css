@@ -1,0 +1,66 @@
+html , body {
+    background-image: url(./image/samuel-zeller-oBb-Y26PJgg-unsplash.jpg);
+    background-size: 20rem 40rem;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3rem;
+    color: #E4E4E4;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    padding: 1rem;
+    margin-bottom: 7rem;
+}
+
+form {
+    width: 25rem;
+    height: 20rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+label {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #585A5C;
+    font-family: 'Fredoka One', cursive;
+}
+
+input {
+    border: 4px solid #585A5C;
+    color: #585A5C;
+    margin: 0.6rem;
+    font-size: 1rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.button {
+    border-radius: 2rem;
+    background-color: #585A5C;
+    font-family: 'Fredoka One', cursive;
+    border: none;
+    color:  #E4E4E4;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
